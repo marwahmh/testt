@@ -43,8 +43,7 @@ python ./scripts/create_lmdb.py --dataset VimeoTecoGAN --raw_dir ./data/VimeoTec
 bash ./train.sh BD RBPGAN/RBPGAN_VimeoTecoGAN_4xSR_2GPU
 ```
 
-4- If you want to conduct a new experiment, create a new folder under experiments_BD/ , add traint.yml and test.yml with the same format as the other experiments but with the desired parameters.
-
+4- If you want to conduct a new experiment, create a new folder under experiments_BD/ , add traint.yml and test.yml with the same format as the other experiments but with the desired parameters. Then train as step 3 (bash ./train.sh BD RBPGAN/"experiment_name" )
 
 
 ## Testing:
